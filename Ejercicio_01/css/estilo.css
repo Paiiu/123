@@ -1,0 +1,147 @@
+/*Comente el código de este archivo*/
+
+/* quitamos el borde, margen, y relleno de todo el documento */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* cambiamos relleno y color de fondo del header */
+header {
+  padding: 1.8em;
+  background-color: bisque;
+}
+
+/* centramos el texto y cambiamos el tamaño de fuente del h1 */
+header h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* Damos color de fondo al nav */
+nav {
+  background-color: rgb(200, 100, 5);
+}
+
+/* agregamos margen a los items del nav */
+nav li {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* Quitamos estilo de lista y agregamos relleno a la lista en nav */
+nav ul {
+  list-style: none;
+  padding: 1.5em;
+}
+
+/* agregamos color y relleno a los enlaces de nav */
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 1.5em;
+}
+
+/* Sumamos accesibilidad al nav */
+nav a:hover,
+nav a:focus {
+  background-color: rgb(233, 233, 18);
+  color: black;
+}
+
+/* Cambiamos margen y tamaño de fuente de los h2 */
+h2 {
+  margin-bottom: 1em;
+  font-size: 2.4em;
+}
+
+/* Cambiamos tamaño de fuente de los h3 */
+h3 {
+  font-size: 1.9em;
+}
+
+figure {
+  width: 40%;
+  float: left;
+  margin: 1em;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-style: oblique;
+  font-size: 1.2em;
+}
+
+/*Edito el margen y el tamaño de fuente para todas las etiquetas <p>*/
+p {
+  margin-bottom: 1em;
+  font-size: 1.7em;
+}
+
+/*Le agrego color de fondo, relleno y posición al footer*/
+footer {
+  background-color: rgb(200, 100, 5);
+  padding: 0.8em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Sumamos accesibilidad al footer */
+footer a:focus,
+footer a:hover {
+  color: black;
+}
+
+footer img {
+  width: 5em;
+}
+
+main section article p {
+  margin: 0.5em;
+}
+
+main section article h2 {
+  margin: 1em;
+}
+
+main section {
+  display: inline-block;
+}
+
+main,
+aside {
+  display: inline-block;
+}
+
+main {
+  padding-top: 2em;
+  width: 65%;
+}
+
+aside {
+  vertical-align: top;
+  width: 29%;
+  text-align: center;
+  padding-top: 2em;
+}
+
+aside h2 {
+  margin-bottom: 1.5em;
+}
+
+aside img {
+  width: 15em;
+}
